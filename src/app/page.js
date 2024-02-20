@@ -29,16 +29,16 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600'>Halfdan Monie</h2>
+            <h2 className='text-5xl py-2 text-teal-600 mb-6'>Halfdan Monie</h2>
             <h3 className='text-2xl py-2'>Datatekniker med speciale i programmering</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>Syddansk Erhvervsskole</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600'>
-            <AiFillGithub />
-            <AiFillLinkedin />
+          <div className='text-5xl flex justify-center gap-10 py-3 text-gray-600'>
+            <AiFillGithub href="https://github.com/half0150" />
+            <AiFillLinkedin href="https://www.linkedin.com/in/halfdan-karlsen-monie-36b049251/" />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-            <Image src={deved} alt="design" layout='fill' objectFit='cover' />
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-12 mt-20 overflow-hidden'>
+            <Image src={deved} alt="avatar_of_HM" layout='fill' objectFit='cover' />
           </div>
         </section>
 
@@ -49,8 +49,8 @@ export default function Home() {
             <p>2022 – Nu Restaurant Gringas (Opvasker)</p>
             <p>2020/10 – 2022/10 Sportsforretning i Odense (Opstrenger)
             </p>
-            <div className="text-center">
-              <Image src={design} alt="avatar_of_HM" width={100} height={100} className="inline" />
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} alt="design" width={100} height={100} className="inline" />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 IT-kompetencer
               </h3>
@@ -60,6 +60,24 @@ export default function Home() {
               <p className="text-gray-800 py-1">Visual Code: Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
               <p className="text-gray-800 py-1">NetBeans: Har brugt det til mine PHP-projekter.</p>
               <p className="text-gray-800 py-1">Visual Studio: Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} alt="design" width={100} height={100} className="inline" />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                Sprog
+              </h3>
+              <p className="text-gray-800 py-1">Engelsk Kan skrive og kommunikere med andre.</p>
+              <p className="text-gray-800 py-1">Dansk Snakker flydende Dansk. kan skrive og kommunikere med andre.</p>
+              <p className="text-gray-800 py-1">Skandinavisk Kan forstå noget svensk</p>
+            </div>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <Image src={design} alt="design" width={100} height={100} className="inline" />
+              <h3 className='text-lg font-medium pt-8 pb-2'>
+                Fritidsinteresser
+              </h3>
+              <p className="text-gray-800 py-1">Går til Badminton i min fritid to gange om ugen i Odense Badminton Klub. Har spillet i ca. 10 år</p>
+              <p className="text-gray-800 py-1">Kan godt lide at se krimi, gyser, komedie film & serier</p>
+              <p className="text-gray-800 py-1">Elsker at lytte til musik som fx The Beatles.</p>
             </div>
           </div>
         </section>
