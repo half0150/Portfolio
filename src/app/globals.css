@@ -20,3 +20,7 @@
   font-family: "burtons";
   src: url("../../public/Burtons.otf");
 }
+
+img {
+  user-select: none;
+}

@@ -6,7 +6,9 @@ import {
 } from 'react-icons/ai';
 import Image from 'next/image';
 import deved from '../../public/deved.png';
-import design from '../../public/design.png';
+import sun from '../../public/sun-front-gradient.png';
+import pin from '../../public/pin-front-gradient.png';
+import chat from '../../public/chat-text-front-gradient.png';
 
 export default function Home() {
   return (
@@ -50,7 +52,7 @@ export default function Home() {
             <p>2020/10 – 2022/10 Sportsforretning i Odense (Opstrenger)
             </p>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} alt="design" width={100} height={100} className="inline" />
+              <Image src={pin} alt="pin" width={100} height={100} className="inline" />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 IT-kompetencer
               </h3>
@@ -62,16 +64,16 @@ export default function Home() {
               <p className="text-gray-800 py-1">Visual Studio: Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} alt="design" width={100} height={100} className="inline" />
+              <Image src={chat} alt="chat" width={100} height={100} className="inline" />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Sprog
               </h3>
-              <p className="text-gray-800 py-1">Engelsk Kan skrive og kommunikere med andre.</p>
-              <p className="text-gray-800 py-1">Dansk Snakker flydende Dansk. kan skrive og kommunikere med andre.</p>
-              <p className="text-gray-800 py-1">Skandinavisk Kan forstå noget svensk</p>
+              <p className="text-gray-800 py-1">Engelsk: Kan skrive og kommunikere med andre.</p>
+              <p className="text-gray-800 py-1">Dansk: Snakker flydende Dansk. kan skrive og kommunikere med andre.</p>
+              <p className="text-gray-800 py-1">Skandinavisk: Kan forstå noget svensk</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={design} alt="design" width={100} height={100} className="inline" />
+              <Image src={sun} alt="sun" width={100} height={100} className="inline" />
               <h3 className='text-lg font-medium pt-8 pb-2'>
                 Fritidsinteresser
               </h3>
