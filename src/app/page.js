@@ -13,7 +13,7 @@ import chat from '../../public/chat-text-front-gradient.png';
 export default function Home() {
   return (
     <div>
-      <main className='bg-white px-10'>
+      <main className='bg-white px-10 md:px-20 lg:px-40'>
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl'>Halfdan Monie</h1>
@@ -33,9 +33,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 mb-6'>Halfdan Monie</h2>
-            <h3 className='text-2xl py-2'>Datatekniker med speciale i programmering</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>Syddansk Erhvervsskole</p>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md-text-6xl'>Halfdan Monie</h2>
+            <h3 className='text-2xl py-2 md:text-3xl'>Datatekniker med speciale i programmering</h3>
+            <p className='text-md py-5 leading-8 text-gray-800 md:text-xl'>Syddansk Erhvervsskole</p>
           </div>
           <div className='text-5xl flex justify-center gap-10 py-3 text-gray-600'>
             <AiFillGithub href="https://github.com/half0150" />
@@ -53,35 +53,37 @@ export default function Home() {
             <p>2022 – Nu Restaurant Gringas (Opvasker)</p>
             <p>2020/10 – 2022/10 Sportsforretning i Odense (Opstrenger)
             </p>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={pin} alt="pin" width={100} height={100} className="inline" />
-              <h3 className='text-lg font-medium pt-8 pb-2'>
-                IT-kompetencer
-              </h3>
-              <p className="text-gray-800 py-1">Officepakken: Bruger Word og kan anvende flere af de funktioner som der tilgængeligt.</p>
-              <p className="text-gray-800 py-1">Windows 10/11: Kan bruge Windows og kender til mange af deres indstillinger.</p>
-              <p className="text-gray-800 py-1">VmWare: Har brugt VmWare i min undervisning på Grundforløbet.</p>
-              <p className="text-gray-800 py-1">Visual Code: Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
-              <p className="text-gray-800 py-1">NetBeans: Har brugt det til mine PHP-projekter.</p>
-              <p className="text-gray-800 py-1">Visual Studio: Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={chat} alt="chat" width={100} height={100} className="inline" />
-              <h3 className='text-lg font-medium pt-8 pb-2'>
-                Sprog
-              </h3>
-              <p className="text-gray-800 py-1">Engelsk: Kan skrive og kommunikere med andre.</p>
-              <p className="text-gray-800 py-1">Dansk: Snakker flydende Dansk. kan skrive og kommunikere med andre.</p>
-              <p className="text-gray-800 py-1">Skandinavisk: Kan forstå noget svensk</p>
-            </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
-              <Image src={sun} alt="sun" width={100} height={100} className="inline" />
-              <h3 className='text-lg font-medium pt-8 pb-2'>
-                Fritidsinteresser
-              </h3>
-              <p className="text-gray-800 py-1">Går til Badminton i min fritid to gange om ugen i Odense Badminton Klub. Har spillet i ca. 10 år</p>
-              <p className="text-gray-800 py-1">Kan godt lide at se krimi, gyser, komedie film & serier</p>
-              <p className="text-gray-800 py-1">Elsker at lytte til musik som fx The Beatles.</p>
+            <div className="lg:flex gap-10">
+              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                <Image src={pin} alt="pin" width={100} height={100} className="inline" />
+                <h3 className='text-lg font-medium pt-8 pb-2'>
+                  IT-kompetencer
+                </h3>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Officepakken:</p> Bruger Word og kan anvende flere af deres funktioner.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Windows:</p> 10/11: Kan bruge Windows og kender til mange af deres indstillinger.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">VmWare:</p> Har brugt VmWare på Grundforløbet.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Visual Code:</p> Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">NetBeans:</p> Har brugt det til mine PHP-projekter.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Visual Studio:</p> Har brugt det i undervisningen og bruger det i mange af mine projekter.</p>
+              </div>
+              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                <Image src={chat} alt="chat" width={100} height={100} className="inline" />
+                <h3 className='text-lg font-medium pt-8 pb-2'>
+                  Sprog
+                </h3>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Engelsk:</p> Kan skrive og kommunikere med andre.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Dansk:</p> Snakker flydende Dansk. kan skrive og kommunikere med andre.</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Skandinavisk:</p> Kan forstå noget svensk</p>
+              </div>
+              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                <Image src={sun} alt="sun" width={100} height={100} className="inline" />
+                <h3 className='text-lg font-medium pt-8 pb-2'>
+                  Fritidsinteresser
+                </h3>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Badminton:</p>Går til Badminton i min fritid to gange om ugen i Odense Badminton Klub. Har spillet i ca. 10 år</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Film & Serier</p>Kan godt lide at se krimi, gyser, komedie film & serier</p>
+                <p className="text-gray-800 py-1"><p className="text-teal-600">Musik</p>Elsker at lytte til musik som fx The Beatles.</p>
+              </div>
             </div>
           </div>
         </section>
