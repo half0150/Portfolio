@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillMoonStarsFill } from "react-icons/bs";
+import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Image from "next/image";
 import deved from "../../public/deved.png";
@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <main className="px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
-          
+
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md-text-6xl">
               Halfdan Monie
@@ -25,8 +25,8 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-10 py-3 text-gray-600">
-            <AiFillGithub href="https://github.com/half0150" />
-            <AiFillLinkedin href="https://www.linkedin.com/in/halfdan-karlsen-monie-36b049251/" />
+            <Link href={"https://github.com/half0150"}><AiFillGithub /></Link>
+            <Link href={"https://www.linkedin.com/in/halfdan-karlsen-monie-36b049251"}><AiFillLinkedin /></Link>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mb-12 mt-20 overflow-hidden">
             <Image
@@ -56,12 +56,7 @@ export default function Home() {
                   IT-kompetencer
                 </h3>
                 <p className=" py-1">
-                  <p className="text-teal-600">Officepakken:</p> Bruger Word og
-                  kan anvende flere af deres funktioner.
-                </p>
-                <p className=" py-1">
-                  <p className="text-teal-600">Windows:</p> 10/11: Kan bruge
-                  Windows og kender til mange af deres indstillinger.
+                  <p className="text-teal-600">C#:</p> Har arbejdet med console app og Wpf.
                 </p>
                 <p className=" py-1">
                   <p className="text-teal-600">VmWare:</p> Har brugt VmWare på
@@ -114,8 +109,7 @@ export default function Home() {
                   Fritidsinteresser
                 </h3>
                 <p className=" py-1">
-                  <p className="text-teal-600">Badminton:</p>Går til Badminton i
-                  min fritid to gange om ugen i Odense Badminton Klub. Har
+                  <p className="text-teal-600">Badminton:</p>Har spillet badminton i ca. 10 år
                   spillet i ca. 10 år
                 </p>
                 <p className=" py-1">
