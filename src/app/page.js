@@ -5,6 +5,7 @@ import Image from "next/image";
 import deved from "../../public/deved.png";
 import sun from "../../public/sun-front-gradient.png";
 import pin from "../../public/pin-front-gradient.png";
+import phone from "../../public/phone-only-front-gradient.png";
 import chat from "../../public/chat-text-front-gradient.png";
 
 export default function Home() {
@@ -73,6 +74,24 @@ export default function Home() {
                 <p className=" py-1">
                   <p className="text-teal-600">Visual Studio:</p> Har brugt det
                   i undervisningen og bruger det i mange af mine projekter.
+                </p>
+              </div>
+              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+                <Image
+                  src={phone}
+                  alt="phone"
+                  width={100}
+                  height={100}
+                  className="inline"
+                />
+                <h3 className="text-lg font-medium pt-8 pb-2">
+                  Kontakt
+                </h3>
+                <p className=" py-1">
+                  <p className="text-teal-600">Tlf:</p> +45 53 67 14 00
+                </p>
+                <p className=" py-1">
+                  <p className="text-teal-600">Email:</p> half0150@edu.sde.dk
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
