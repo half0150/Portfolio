@@ -7,6 +7,7 @@ import sun from "../../public/sun-front-gradient.png";
 import pin from "../../public/pin-front-gradient.png";
 import phone from "../../public/phone-only-front-gradient.png";
 import chat from "../../public/chat-text-front-gradient.png";
+import ContactInfo from "./contact/ContactInfo";
 
 export default function Home() {
   return (
@@ -88,11 +89,9 @@ export default function Home() {
                   Kontakt
                 </h3>
                 <p className=" py-1">
-                  <p className="text-teal-600">Tlf:</p> +45 53 67 14 00
+                  <ContactInfo />
                 </p>
-                <p className=" py-1">
-                  <p className="text-teal-600">Email:</p> half0150@edu.sde.dk
-                </p>
+
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image
