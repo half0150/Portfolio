@@ -128,7 +128,6 @@ export default function Home() {
                 </h3>
                 <p className=" py-1">
                   <p className="text-teal-600">Badminton:</p>Har spillet badminton i ca. 10 år
-                  spillet i ca. 10 år
                 </p>
                 <p className=" py-1">
                   <p className="text-teal-600">Film & Serier</p>Kan godt lide at
