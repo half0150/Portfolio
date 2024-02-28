@@ -9,6 +9,7 @@ import phone from "../../public/phone-only-front-gradient.png";
 import chat from "../../public/chat-text-front-gradient.png";
 import ContactInfo from "./contact/ContactInfo";
 
+
 export default function Home() {
   return (
     <div>

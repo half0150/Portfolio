@@ -1,33 +1,27 @@
 export default function index() {
   return (
     <div className="flex justify-center gap-10">
-      <div className="shadow-lg p-10 rounded-xl my-10">
-        <section>
-                <h3 className="text-5xl text-teal-600 font-medium mb-14">
-                  Resume
-                </h3>
-                <p>Jeg hedder Halfdan Karlsen Monie og er 18 år gammel.</p>
-                <p>Jeg bor i Odense hjemme hos mine forældre og mine søskende.</p>
-                <p>Jeg går lige nu på Syddansk Erhvervsskole, hvor jeg studerer som Datatekniker med speciale i programmering.</p> 
-                <p>I min fritid kan jeg rigtig godt lide at være sammen med mine venner og have det sjovt sammen med dem.</p> 
-                <p>Lige nu søger jeg en læreplads, så jeg kan udvikle mine evner som Datatekniker.</p>
-                <p>Jeg går lige nu i skoleoplæring, hvilket jeg helst gerne vil få ændret på.</p>
-                <p>Jeg har færdiggjort mit Grundforløb den 27/6/23.</p>
-                <p>Jeg vil meget gerne ud i en virksomhed,</p>
-                <p>så jeg har mulighed for at udvikle mine evner som Datatekniker og få indsigt i,</p>
-                <p className="
-                mb-10">hvordan det er at arbejde i en IT-virksomhed.</p>
-                <p>Lige nu arbejder jeg som opvasker i en restaurant, som hedder Gringas.</p>
-                <p>Det er jeg faktisk rigtig glad for, fordi jeg synes, der er et rigtig godt arbejdsmiljø.</p>
-                <p>Jeg har tidligere arbejdet som ketcher opstrenger i en butik, der hedder Ketshop.</p> 
-                <p>Der fik jeg lidt erfaring med at lave noget for en kunde.</p> 
-                <p>Jeg kan godt lide at arbejde, hvis jeg trives godt i arbejdsmiljøet.</p> 
-                <p>Jeg er god til at overholde mine aftaler, når det kommer til at være mødepligtig.</p> 
-                <p>Jeg har ikke så meget erfaring indenfor programmering,</p> 
-                <p>men jeg finder det meget interessant og vil gerne lære mere om det.</p> 
-                <p>Jeg har altid været meget glad for at arbejde med IT, siden jeg fik min første computer.</p>
-                </section>
-              </div>
+      <div className="shadow-lg p-10 rounded-xl my-10 bg-gray-800">
+        <section className="text-gray-700 flex">
+          <div className="text-slate-300">
+            <h3 className="text-3xl font-semibold mb-6 text-teal-600">Resume</h3>
+            <p className="mb-4">Mit navn er Halfdan Karlsen Monie, og jeg er 18 år gammel. Jeg bor i Odense sammen med mine forældre og søskende.</p>
+            <p className="mb-4">Jeg er i gang med min uddnalese på Syddansk Erhvervsskole, hvor jeg studerer til datatekniker med specialisering i programmering.</p>
+            <p className="mb-4">I min fritid nyder jeg at tilbringe tid sammen med mine venner og have det sjovt med dem. Jeg bruger også gerne min fritid på at programmere.</p>
+            <p className="mb-4">Jeg søger aktivt en læreplads, da jeg ønsker at udvikle mine færdigheder som datatekniker. Jeg er i øjeblikket i skolepraktik, men jeg foretrækker at få erfaring direkte fra en virksomhed.</p>
+            <p className="mb-4">Jeg afsluttede mit grundforløb den 27. juni 2023.</p>
+            <p className="mb-4">Mit mål er at arbejde i en virksomhed, hvor jeg kan udvikle mine evner som datatekniker og få indblik i, hvordan det er at arbejde i en IT-virksomhed.</p>
+            <img src="../../cv_billede.jpg" alt="Halfdan Monie" className="w-80 h-80 rounded-full mb-6 ml-auto" /> {}
+            <p className="mb-4">Jeg arbejder lige nu som opvasker på restauranten Gringas, hvilket jeg virkelig værdsætter, da jeg synes, at arbejdsmiljøet er fantastisk.</p>
+            <p className="mb-4">Tidligere har jeg arbejdet som ketcher-opstrenger hos Ketshop, hvor jeg også vi iblandt gode kollegaer.</p>
+            <p className="mb-4">Jeg trives bedst, når jeg arbejder i et positivt arbejdsmiljø, og jeg er god til at overholde mine forpligtelser, især når det drejer sig om at møde til tiden.</p>
+            <p className="mb-4">Min erfaring inden for programmering er begrænset, men jeg finder emnet meget interessant og er ivrig efter at lære mere.</p>
+            <p className="mb-4">Min passion for IT opstod allerede, da jeg fik min første computer, og jeg har altid nydt at arbejde med teknologi.</p>
+          </div>
+          <div>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
