@@ -11,7 +11,7 @@ export default function index() {
             <p className="mb-4">Jeg søger aktivt en læreplads, da jeg ønsker at udvikle mine færdigheder som datatekniker. Jeg er i øjeblikket i skolepraktik, men jeg foretrækker at få erfaring direkte fra en virksomhed.</p>
             <p className="mb-4">Jeg afsluttede mit grundforløb den 27. juni 2023.</p>
             <p className="mb-4">Mit mål er at arbejde i en virksomhed, hvor jeg kan udvikle mine evner som datatekniker og få indblik i, hvordan det er at arbejde i en IT-virksomhed.</p>
-            <img src="../../cv_billede.jpg" alt="Halfdan Monie" className="w-80 h-80 rounded-full mb-6 ml-auto" /> {}
+            <img src="../../cv_billede-modified.png" alt="Halfdan Monie" className="w-80 h-auto rounded-full mb-6 ml-auto" /> {}
             <p className="mb-4">Jeg arbejder lige nu som opvasker på restauranten Gringas, hvilket jeg virkelig værdsætter, da jeg synes, at arbejdsmiljøet er fantastisk.</p>
             <p className="mb-4">Jeg har tidligere arbejdet som opstrenger hos Ketshop, hvor jeg også var iblandt nogle gode kollegaer.</p>
             <p className="mb-4">Jeg trives bedst, når jeg arbejder i et positivt arbejdsmiljø, og jeg er god til at overholde mine forpligtelser, især når det drejer sig om at møde til tiden.</p>
