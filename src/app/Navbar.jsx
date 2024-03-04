@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
+    
     <nav className="py-10 mb-12 flex justify-between px-10 md:px-20 lg:px-40">
       <Link href="/"><h1 className="text-xl">Halfdan Monie</h1></Link>
       {/* <h1 className="text-xl">+45 53 67 14 00</h1> */}
