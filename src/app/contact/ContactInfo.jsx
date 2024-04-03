@@ -8,10 +8,10 @@ const ContactInfo = () => {
     <div>
       <p className="text-teal-600">Tlf:</p>
       <a href={`tel:${phoneNumber}`}>{'+45 53 67 14 00'}</a>
-      <p className="py-1">
+      <div className="py-1">
         <p className="text-teal-600">Email:</p> 
         <a href={`mailto:${emailAddress}`}>{emailAddress}</a>
-      </p>
+      </div>
     </div>
   );
 };

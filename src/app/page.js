@@ -84,9 +84,9 @@ export default function Home() {
         <h3 className="text-lg font-medium pt-8 pb-2">
           Kontakt
         </h3>
-        <p className=" py-1">
+        <div className=" py-1">
           <ContactInfo />
-        </p>
+        </div>
       </div>
       <div className="text-center shadow-lg p-10 rounded-xl my-10">
         <Image
@@ -155,6 +155,19 @@ export default function Home() {
         <h3 className="text-lg font-medium pt-8 pb-2">Digitalisering af kajakklubbens opslagstavle</h3>
         <p className="py-1">
           Oprettet relationel database for Kajakklubben Pagaj med ER-diagram, implementering af tabeller og testdata til SQL-forespørgsler.
+        </p>
+      </div>
+      <div className="text-center shadow-lg p-10 rounded-xl my-10">
+        <Image
+          src={chat}
+          alt="chat"
+          width={100}
+          height={100}
+          className="inline"
+        />
+        <h3 className="text-lg font-medium pt-8 pb-2">More to come...</h3>
+        <p className="py-1">
+          Under udvikling
         </p>
       </div>
     </div>
