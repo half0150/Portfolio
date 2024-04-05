@@ -165,9 +165,9 @@ export default function Home() {
           height={100}
           className="inline"
         />
-        <h3 className="text-lg font-medium pt-8 pb-2">More to come...</h3>
+        <h3 className="text-lg font-medium pt-8 pb-2">Car Api Php projekt</h3>
         <p className="py-1">
-          Under udvikling
+          Brugt en Api om biler til at få data om registret biler i Danmark.
         </p>
       </div>
     </div>
