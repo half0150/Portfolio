@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import deved from "../../public/deved.png";
 import sun from "../../public/sun-front-gradient.png";
 import pin from "../../public/pin-front-gradient.png";
