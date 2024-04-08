@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "framer-motion": "^11.0.6",
-    "next": "^14.2.0-canary.54",
+    "gsap": "^3.12.5",
+    "next": "^14.1.4",
     "next-themes": "^0.2.1",
     "next.js": "^1.0.3",
     "react": "^18",

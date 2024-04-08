@@ -1,7 +1,8 @@
+// "use client"
 import { Inter } from "next/font/google";
 import "./globals.css";
-
 import Navbar from "../app/Navbar";
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -10,6 +11,12 @@ export const metadata = {
   title: "Halfdan Monie",
   description: "Portfolio for Halfdan Monie",
 };
+
+// document.title = "Halfdan Monie"
+
+// useEffect (()=>{
+  
+// }, [])
 
 export default function RootLayout({ children }) {
   return (
