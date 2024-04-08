@@ -1,10 +1,10 @@
 export default function index() {
   return (
     <div className="flex justify-center gap-10">
-      <div className="shadow-lg p-10 rounded-xl my-10 bg-gray-800">
+      <div className="shadow-lg p-10 rounded-xl my-10 bg-cyan-700">
         <section className="text-gray-700 flex">
           <div className="text-slate-300">
-            <h3 className="text-3xl font-semibold mb-6 text-teal-600">Resume</h3>
+            <h3 className="text-3xl font-semibold mb-6 text-violet-300">Resume</h3>
             <p className="mb-4">Mit navn er Halfdan Karlsen Monie, og jeg er 18 år gammel. Jeg bor i Odense sammen med mine forældre og søskende.</p>
             <p className="mb-4">Jeg er i gang med min uddannelse på Syddansk Erhvervsskole, hvor jeg studerer til datatekniker med specialisering i programmering.</p>
             <p className="mb-4">I min fritid nyder jeg at tilbringe tid sammen med mine venner og have det sjovt med dem. Jeg bruger også gerne min fritid på at programmere.</p>
