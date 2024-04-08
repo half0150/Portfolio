@@ -48,6 +48,21 @@ export default function Home() {
     <div className="lg:flex gap-10">
       <div className="text-center shadow-lg p-10 rounded-xl my-10">
         <Image
+          src={phone}
+          alt="phone"
+          width={100}
+          height={100}
+          className="inline"
+        />
+        <h3 className="text-lg font-medium pt-8 pb-2">
+          Kontakt
+        </h3>
+        <div className=" py-1">
+          <ContactInfo />
+        </div>
+      </div>
+      <div className="text-center shadow-lg p-10 rounded-xl my-10">
+        <Image
           src={pin}
           alt="pin"
           width={100}
@@ -71,21 +86,6 @@ export default function Home() {
         </div>
         <div className=" py-1">
           <p className="text-teal-600">Visual Studio:</p> Har brugt det i undervisningen og bruger det i mange af mine projekter.
-        </div>
-      </div>
-      <div className="text-center shadow-lg p-10 rounded-xl my-10">
-        <Image
-          src={phone}
-          alt="phone"
-          width={100}
-          height={100}
-          className="inline"
-        />
-        <h3 className="text-lg font-medium pt-8 pb-2">
-          Kontakt
-        </h3>
-        <div className=" py-1">
-          <ContactInfo />
         </div>
       </div>
       <div className="text-center shadow-lg p-10 rounded-xl my-10">
@@ -154,7 +154,7 @@ export default function Home() {
         />
         <h3 className="text-lg font-medium pt-8 pb-2">Digitalisering af kajakklubbens opslagstavle</h3>
         <p className="py-1">
-          Oprettet relationel database for Kajakklubben Pagaj med ER-diagram, implementering af tabeller og testdata til SQL-forespørgsler.
+          Oprettet relationel database for Kajakklubben med ER-diagram, implementering af tabeller og testdata til SQL-forespørgsler.
         </p>
       </div>
       <div className="text-center shadow-lg p-10 rounded-xl my-10">
@@ -167,7 +167,7 @@ export default function Home() {
         />
         <h3 className="text-lg font-medium pt-8 pb-2">Car Api Php projekt</h3>
         <p className="py-1">
-          Brugt en Api om biler til at få data om registret biler i Danmark.
+          Brugt <a className="text-teal-400" href="https://api.synsbasen.dk/">synsbasen api</a> til at få data omkring biler.
         </p>
       </div>
     </div>
