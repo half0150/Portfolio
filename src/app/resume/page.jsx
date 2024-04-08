@@ -64,7 +64,6 @@ export default function index() {
               </p>
             </div>
           </div>
-          <div></div>
         </section>
       </div>
     </div>

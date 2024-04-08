@@ -15,13 +15,13 @@ export default function Home() {
       <main className="px-10 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium md-text-6xl">
+            <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Halfdan Monie
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">
               Datatekniker med speciale i programmering
             </h3>
-            <p className="text-md py-5 leading-8  md:text-xl">
+            <p className="text-md py-5 leading-8 md:text-xl">
               Syddansk Erhvervsskole
             </p>
           </div>
@@ -61,7 +61,7 @@ export default function Home() {
                   className="inline"
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">Kontakt</h3>
-                <div className=" py-1">
+                <div className="py-1">
                   <ContactInfo />
                 </div>
               </div>
@@ -76,23 +76,23 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   IT-kompetencer
                 </h3>
-                <div className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">C#:</p> Har arbejdet med console
                   app og Wpf.
                 </div>
-                <div className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">VmWare:</p> Har brugt VmWare på
                   Grundforløbet.
                 </div>
-                <div className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">Visual Code:</p> Har brugt det i
                   undervisningen og bruger det i mange af mine projekter.
                 </div>
-                <div className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">NetBeans:</p> Har brugt det til
                   mine PHP-projekter.
                 </div>
-                <div className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">Visual Studio:</p> Har brugt det
                   i undervisningen og bruger det i mange af mine projekter.
                 </div>
@@ -106,18 +106,18 @@ export default function Home() {
                   className="inline"
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">Sprog</h3>
-                <p className=" py-1">
+                <div className="py-1">
                   <p className="text-teal-600">Engelsk:</p> Kan skrive og
                   kommunikere med andre.
-                </p>
-                <p className=" py-1">
+                </div>
+                <div className="py-1">
                   <p className="text-teal-600">Dansk:</p> Snakker flydende
                   Dansk. kan skrive og kommunikere med andre.
-                </p>
-                <p className=" py-1">
+                </div>
+                <div className="py-1">
                   <p className="text-teal-600">Skandinavisk:</p> Kan forstå
                   noget svensk
-                </p>
+                </div>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image
@@ -130,24 +130,22 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2">
                   Fritidsinteresser
                 </h3>
-                <p className=" py-1">
-                  <p className="text-teal-600">Badminton:</p>Har spillet
+                <div className="py-1">
+                  <p className="text-teal-600">Badminton:</p> Har spillet
                   badminton i ca. 10 år
-                </p>
-                <p className=" py-1">
+                </div>
+                <div className="py-1">
                   <p className="text-teal-600">Film & Serier</p>Kan godt lide at
                   se krimi, gyser, komedie film & serier
-                </p>
-                <p className=" py-1">
+                </div>
+                <div className="py-1">
                   <p className="text-teal-600">Musik</p>Elsker at lytte til
                   musik som fx The Beatles.
-                </p>
+                </div>
               </div>
             </div>
             <h3 className="text-3xl py-1 pb-6">Projekter</h3>
             <div className="lg:flex justify-center gap-10">
-              {" "}
-              {/* Modified */}
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image
                   src={chat}
