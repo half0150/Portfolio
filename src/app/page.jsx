@@ -189,7 +189,10 @@ export default function Home() {
                 </h3>
                 <p className="py-1">
                   Brugt{" "}
-                  <a className="text-teal-400" href="https://api.synsbasen.dk/">
+                  <a
+                    className="text-teal-600 underline"
+                    href="https://api.synsbasen.dk/"
+                  >
                     synsbasen api
                   </a>{" "}
                   til at få data omkring biler.
