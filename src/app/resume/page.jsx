@@ -12,13 +12,12 @@ export default function index() {
               </p>
               <p className="mb-4">
                 Jeg er i gang med min uddannelse på Syddansk Erhvervsskole, hvor
-                jeg studerer til datatekniker med specialisering i
-                programmering.
+                jeg studerer som datatekniker med speciale i programmering.
               </p>
               <p className="mb-4">
                 I min fritid nyder jeg at tilbringe tid sammen med mine venner
-                og have det sjovt med dem. Jeg bruger også gerne min fritid på
-                at programmere.
+                og have det sjovt med dem. Jeg spiller også badminton i OBK,
+                hvilket jeg har gjort i ca 10 år.
               </p>
               <p className="mb-4">
                 Jeg søger aktivt en læreplads, da jeg ønsker at udvikle mine
@@ -27,7 +26,8 @@ export default function index() {
                 virksomhed.
               </p>
               <p className="mb-4">
-                Jeg afsluttede mit grundforløb den 27. juni 2023.
+                Jeg afsluttede mit grundforløb den 27. juni 2023 og er færdig
+                med HF1.
               </p>
               <p className="mb-4">
                 Mit mål er at arbejde i en virksomhed, hvor jeg kan udvikle mine
