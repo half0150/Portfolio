@@ -13,6 +13,7 @@ import budgetCalc from "../../public/budgetCalc.png";
 // import excel from "../../public/excel.png";
 import carApi from "../../public/carApi.png";
 import noImage from "../../public/noImage.jpg";
+import laravelTool from "../../public/laravelTool.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ContactInfo from "./contact/ContactInfo";
@@ -56,7 +57,9 @@ export default function Home() {
         </section>
         <section>
           <div className="pb-8 text-center">
-            <h3 className="text-3xl py-1 pb-6">Erhvervserfaringer</h3>
+            <h3 className="text-teal-500 text-3xl py-1 pb-6">
+              Erhvervserfaringer
+            </h3>
             <p>2022 – Nu Restaurant Gringas (Opvasker)</p>
             <p>2020/10 – 2022/10 Sportsforretning i Odense (Opstrenger)</p>
             <div className="lg:flex gap-10">
@@ -152,7 +155,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <h3 className="text-3xl py-1 pb-6">Projekter</h3>
+            <h3 className="text-teal-500 text-3xl py-1 pb-6">Projekter</h3>
             <div className="max-w-lg mx-auto">
               <Carousel
                 showThumbs={false}
@@ -160,20 +163,21 @@ export default function Home() {
                 infiniteLoop
                 interval={3000}
                 showStatus={false}
+                stopOnHover={true}
                 className="rounded-lg shadow-lg"
               >
                 <div className="text-center p-10">
                   <div className="relative h-64 w-full">
                     <Image
                       src={budgetCalc}
-                      alt="Project 1"
+                      alt="BudgetToExcel"
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
                     />
                   </div>
                   <a href="https://github.com/half0150/budgetToExcel">
-                    <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                    <h3 className="text-teal-500 text-lg font-medium pt-8 pb-2 underline">
                       C# Razor Pages
                     </h3>
                   </a>
@@ -185,14 +189,14 @@ export default function Home() {
                 <div className="text-center p-10">
                   <div className="relative h-64 w-full">
                     <Image
-                      src={noImage} // Replace with actual image
-                      alt="Project 2"
+                      src={noImage}
+                      alt="kajakklubben"
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
                     />
                   </div>
-                  <h3 className="text-lg font-medium pt-8 pb-2">
+                  <h3 className="text-teal-500 text-lg font-medium pt-8 pb-2">
                     Digitalisering af kajakklubbens opslagstavle
                   </h3>
                   <p className="py-1">
@@ -205,14 +209,14 @@ export default function Home() {
                   <div className="relative h-64 w-full">
                     <Image
                       src={carApi}
-                      alt="Project 3"
+                      alt="carApi"
                       layout="fill"
                       objectFit="cover"
                       className="rounded-lg"
                     />
                   </div>
                   <a href="https://github.com/half0150/cars-database">
-                    <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                    <h3 className=" text-teal-500 text-lg font-medium pt-8 pb-2 underline">
                       Car Api Php
                     </h3>
                   </a>
@@ -225,6 +229,28 @@ export default function Home() {
                       synsbasen api
                     </a>{" "}
                     til at få data omkring biler.
+                  </p>
+                </div>
+                <div className="text-center p-10">
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src={laravelTool}
+                      alt="laravelTool"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                  </div>
+                  <a href="https://github.com/half0150/laravel-inventory">
+                    <h3 className="text-teal-500 text-lg font-medium pt-8 pb-2 underline">
+                      Laravel Tool Inventory
+                    </h3>
+                  </a>
+                  <p className="py-1">
+                    Jeg har udviklet en inventarstyringsapplikation i Laravel,
+                    inklusive oprettelse af en relational database med et
+                    ER-diagram og implementering af tabeller med testdata til
+                    SQL-forespørgsler.
                   </p>
                 </div>
               </Carousel>{" "}
