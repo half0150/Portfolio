@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link from "next/link";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
@@ -7,6 +8,11 @@ import sun from "../../public/sun-front-gradient.png";
 import pin from "../../public/pin-front-gradient.png";
 import phone from "../../public/phone-only-front-gradient.png";
 import chat from "../../public/chat-text-front-gradient.png";
+import budgetCircle from "../../public/budgetCircle.png";
+import budgetCalc from "../../public/budgetCalc.png";
+import excel from "../../public/excel.png";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ContactInfo from "./contact/ContactInfo";
 
 export default function Home() {
@@ -145,6 +151,7 @@ export default function Home() {
               </div>
             </div>
             <h3 className="text-3xl py-1 pb-6">Projekter</h3>
+            <div className="max-w-lg mx-auto"></div>
             <div className="lg:flex justify-center gap-10">
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
                 <Image
@@ -154,10 +161,14 @@ export default function Home() {
                   height={100}
                   className="inline"
                 />
-                <h3 className="text-lg font-medium pt-8 pb-2">Kundedatabase</h3>
+                <a href="https://github.com/half0150/budgetToExcel">
+                  <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                    C# Razor Pages
+                  </h3>
+                </a>
                 <p className="py-1">
-                  Udviklet en ny databasestruktur for KaosTek, herunder design,
-                  oprettelse og SQL-query til rapportgenerering af kundeordrer.
+                  Udviklet en budgetberegningsapplikation, der eksporterer
+                  finansielle data til et Excel-ark.
                 </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
@@ -184,9 +195,11 @@ export default function Home() {
                   height={100}
                   className="inline"
                 />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  Car Api Php projekt
-                </h3>
+                <a href="https://github.com/half0150/cars-databases">
+                  <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                    Car Api Php
+                  </h3>
+                </a>
                 <p className="py-1">
                   Brugt{" "}
                   <a
