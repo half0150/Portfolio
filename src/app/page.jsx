@@ -8,9 +8,11 @@ import sun from "../../public/sun-front-gradient.png";
 import pin from "../../public/pin-front-gradient.png";
 import phone from "../../public/phone-only-front-gradient.png";
 import chat from "../../public/chat-text-front-gradient.png";
-import budgetCircle from "../../public/budgetCircle.png";
+// import budgetCircle from "../../public/budgetCircle.png";
 import budgetCalc from "../../public/budgetCalc.png";
-import excel from "../../public/excel.png";
+// import excel from "../../public/excel.png";
+import carApi from "../../public/carApi.png";
+import noImage from "../../public/noImage.jpg";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ContactInfo from "./contact/ContactInfo";
@@ -151,66 +153,81 @@ export default function Home() {
               </div>
             </div>
             <h3 className="text-3xl py-1 pb-6">Projekter</h3>
-            <div className="max-w-lg mx-auto"></div>
-            <div className="lg:flex justify-center gap-10">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image
-                  src={chat}
-                  alt="chat"
-                  width={100}
-                  height={100}
-                  className="inline"
-                />
-                <a href="https://github.com/half0150/budgetToExcel">
-                  <h3 className="text-lg font-medium pt-8 pb-2 underline">
-                    C# Razor Pages
+            <div className="max-w-lg mx-auto">
+              <Carousel
+                showThumbs={false}
+                autoPlay
+                infiniteLoop
+                interval={3000}
+                showStatus={false}
+                className="rounded-lg shadow-lg"
+              >
+                <div className="text-center p-10">
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src={budgetCalc}
+                      alt="Project 1"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                  </div>
+                  <a href="https://github.com/half0150/budgetToExcel">
+                    <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                      C# Razor Pages
+                    </h3>
+                  </a>
+                  <p className="py-1">
+                    Udviklet en budgetberegningsapplikation, der eksporterer
+                    finansielle data til et Excel-ark.
+                  </p>
+                </div>
+                <div className="text-center p-10">
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src={noImage} // Replace with actual image
+                      alt="Project 2"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                  </div>
+                  <h3 className="text-lg font-medium pt-8 pb-2">
+                    Digitalisering af kajakklubbens opslagstavle
                   </h3>
-                </a>
-                <p className="py-1">
-                  Udviklet en budgetberegningsapplikation, der eksporterer
-                  finansielle data til et Excel-ark.
-                </p>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image
-                  src={chat}
-                  alt="chat"
-                  width={100}
-                  height={100}
-                  className="inline"
-                />
-                <h3 className="text-lg font-medium pt-8 pb-2">
-                  Digitalisering af kajakklubbens opslagstavle
-                </h3>
-                <p className="py-1">
-                  Oprettet relationel database for Kajakklubben med ER-diagram,
-                  implementering af tabeller og testdata til SQL-forespørgsler.
-                </p>
-              </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image
-                  src={chat}
-                  alt="chat"
-                  width={100}
-                  height={100}
-                  className="inline"
-                />
-                <a href="https://github.com/half0150/cars-database">
-                  <h3 className="text-lg font-medium pt-8 pb-2 underline">
-                    Car Api Php
-                  </h3>
-                </a>
-                <p className="py-1">
-                  Brugt{" "}
-                  <a
-                    className="text-teal-600 underline"
-                    href="https://api.synsbasen.dk/"
-                  >
-                    synsbasen api
-                  </a>{" "}
-                  til at få data omkring biler.
-                </p>
-              </div>
+                  <p className="py-1">
+                    Oprettet relationel database for Kajakklubben med
+                    ER-diagram, implementering af tabeller og testdata til
+                    SQL-forespørgsler.
+                  </p>
+                </div>
+                <div className="text-center p-10">
+                  <div className="relative h-64 w-full">
+                    <Image
+                      src={carApi}
+                      alt="Project 3"
+                      layout="fill"
+                      objectFit="cover"
+                      className="rounded-lg"
+                    />
+                  </div>
+                  <a href="https://github.com/half0150/cars-database">
+                    <h3 className="text-lg font-medium pt-8 pb-2 underline">
+                      Car Api Php
+                    </h3>
+                  </a>
+                  <p className="py-1">
+                    Brugt{" "}
+                    <a
+                      className="text-teal-600 underline"
+                      href="https://api.synsbasen.dk/"
+                    >
+                      synsbasen api
+                    </a>{" "}
+                    til at få data omkring biler.
+                  </p>
+                </div>
+              </Carousel>{" "}
             </div>
           </div>
         </section>

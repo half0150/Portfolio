@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-40 border-b-2 items-center border-violet-300">
+    <nav className="py-5 mb-12 flex justify-between px-10 md:px-20 lg:px-40 border-b-2 items-center border-teal-500">
       <Link href="/">
-        <h1 className="text-2xl text-violet-300 font-bold">Halfdan Monie</h1>
+        <h1 className="text-3xl text-teal-500 font-bold">Halfdan Monie</h1>
       </Link>
       {/* <h1 className="text-xl">+45 53 67 14 00</h1> */}
       {/* <h1 className="text-xl">half0150@edu.sde.dk</h1> */}
       <ul className="flex items-center">
-        <li className="text-violet-300">
+        <li className="text-teal-500">
           <label className="swap swap-rotate">
             <input type="checkbox" className="theme-controller" value="light" />
 
