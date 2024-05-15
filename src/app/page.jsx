@@ -195,7 +195,7 @@ export default function Home() {
                   height={100}
                   className="inline"
                 />
-                <a href="https://github.com/half0150/cars-databases">
+                <a href="https://github.com/half0150/cars-database">
                   <h3 className="text-lg font-medium pt-8 pb-2 underline">
                     Car Api Php
                   </h3>
