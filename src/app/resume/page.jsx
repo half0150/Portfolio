@@ -13,7 +13,9 @@ export default function Index() {
               Halfdan Karlsen Monie
             </h1>
             <p className="text-xl ">
-              Datatekniker med speciale i programmering
+              <a href="https://www.ug.dk/uddannelser/erhvervsuddannelser/teknologibyggeriogtransport/data-og-kommunikationsuddannelsen">
+                Datatekniker med speciale i programmering
+              </a>
             </p>
           </div>
           <div className="text-left">
@@ -36,10 +38,16 @@ export default function Index() {
             <h2 className="text-2xl font-bold mb-4 text-cyan-700 dark:text-cyan-400">
               Uddannelse
             </h2>
-            <p className="mb-4">
-              Jeg afsluttede mit grundforløb den 27. juni 2023 og er færdig med
-              HF1.
-            </p>
+            <ul className="mb-4 pl-5 list-disc">
+              <li>
+                2022-Nu: Syddansk Erhvervsskole, Datatekniker med speciale i
+                programmering.
+              </li>
+              <li>
+                2021-2022: Hjemly Idrætsefterskole 10 klasse afgangseksamen
+              </li>
+              <li>2011-2021: Odense Friskole, 9 klasse afgangseksamen.</li>
+            </ul>
             <h2 className="text-2xl font-bold mb-4 text-cyan-700 dark:text-cyan-400">
               Karriere Mål
             </h2>
