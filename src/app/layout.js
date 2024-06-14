@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <SpeedInsights />
-        <GoogleAnalytics gaId="G-SFNND2N4NF" />
+        <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID} />
         <Navbar />
         {children}
         <Footer />
