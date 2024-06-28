@@ -15,7 +15,7 @@ import laravelTool from "../../public/laravelTool.png";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import EducationTimeline from "./components/education/EducationTimeline";
-import ContactInfo from "./contact/ContactInfo";
+import ContactInfo from "./(pages)/contact/ContactInfo";
 
 export default function Home() {
   return (

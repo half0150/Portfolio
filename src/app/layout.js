@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "../app/Navbar";
-import Footer from "../app/footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/footer";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
