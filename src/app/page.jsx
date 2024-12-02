@@ -48,7 +48,7 @@ export default function Home() {
 
         <section className="pb-8 text-center">
           <h3 className="text-teal-500 text-3xl py-1 pb-6">Erhvervserfaringer</h3>
-          <p>2022 – Nu Restaurant Gringas (Opvasker)</p>
+          <p>2022 – 2024/09 Restaurant Gringas (Opvasker)</p>
           <p>2020/10 – 2022/10 Sportsforretning i Odense (Opstrenger)</p>
           <div className="lg:flex gap-10 justify-center">
             <div className="text-center shadow-lg p-10 rounded-xl my-10 max-w-xs">
